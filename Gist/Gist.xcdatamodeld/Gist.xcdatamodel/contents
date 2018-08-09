@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1510" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Gist" representedClassName="Gist" syncable="YES" codeGenerationType="class">
+        <attribute name="avatarData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="avatarURLString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comments" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="descriptionString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileTextURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gistID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loginName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Gist" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>
